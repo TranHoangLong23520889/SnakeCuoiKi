@@ -421,7 +421,7 @@ void run (){
 		outtextxy (550,200,strcat(s,"%"));
 		if (x == 100)
 			delay (500);
-		delay (20);
+		delay (10);
 		x++;
 	}
 	
@@ -432,7 +432,7 @@ void run (){
 	setbkcolor(0);
 	cleardevice();
 	clearmouseclick(WM_LBUTTONDOWN);
-	PlaySound(TEXT("faded.wav"), NULL , SND_ASYNC);
+	PlaySound(TEXT("backgr.wav"), NULL , SND_ASYNC);
 	while (!ismouseclick(WM_LBUTTONDOWN) || mousex() < 200 || mousey() > 465 || mousey() < 190 || mousex() > 580 ){
 		settextstyle(1,0,6);
 		setcolor (10);
@@ -546,21 +546,24 @@ void run (){
 		int x = getcolor();
 		while(!ismouseclick(WM_LBUTTONDOWN)){
 			settextstyle(10,0,6);setcolor(15);
-			outtextxy(260,20,"ABOUT");
+			outtextxy(320,20,"ABOUT");
 			settextstyle(1,0,4);setcolor(9);
-			outtextxy(20,100,"TRUONG DAI HOC DIEN LUC");
-			settextstyle(7,0,5);
+			outtextxy(350,100,"UIT");
+			settextstyle(6,0,5);
+			setcolor (10);
 			showText(290,150,"DE TAI");
 			settextstyle(4,0,2);
-			showText(170,200,"TRO CHOI \"RAN SAN MOI\"");
-			settextstyle(7,0,3);
+			showText(185,200,"TRO CHOI \"RAN SAN MOI\"");
+			settextstyle(6,0,3);
 			showText(200,270,"SINH VIEN THUC HIEN");
 			settextstyle(4,0,2);
-			showText(150,320,"NGUYEN VAN HIEU- 1481310027");
-			settextstyle(3,0,3);
-			showText(250,390,"GIANG VIEN HUONG DAN");
-			settextstyle(4,0,3);
-			showText(180,440,"THAY NGO NGOC THANH");
+			showText(120,320,"NGUYEN VAN MANH HUY - 23520641");
+			showText(120,350,"TRAN HOANG LONG - 23520889");
+			showText(120,380,"NGUYEN CHIEN THANG - 23521423");
+			settextstyle(6,0,3);
+			showText(185,430,"GIANG VIEN HUONG DAN");
+			settextstyle(4,0,2);
+			showText(230,460,"NGUYEN VAN TOAN");
 		}
 		setcolor(x);
 		settextstyle (1,0,2);
