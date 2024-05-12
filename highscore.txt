@@ -1,5 +1,4 @@
-Kien 800
-KP 780
-HieuDz 600
+Huy 800
+Long 780
+Thang 600
 Huy 600
- 500
