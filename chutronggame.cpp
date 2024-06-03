@@ -4,4 +4,5 @@ void showTextBackground(int x,int y,char *str,int color){
 	outtextxy(x,y,str);
 	delay(200);
 	setbkcolor(bk);
+	return;
 }
