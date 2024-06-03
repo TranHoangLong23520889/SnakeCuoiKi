@@ -16,7 +16,6 @@ void drawGame ();
 void classic();
 void modern();
 void mainLoop (void (*gloop)());
-void eatfood ();
 void run ();
 void changeDirecton (int x);
 void showHighScore();
