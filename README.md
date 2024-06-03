@@ -7,6 +7,7 @@
 # Tính năng
 - [x] Lưu điểm cao và tên người chơi
 - [x] Play/Pause trong khi chơi game
+- [x] Thêm file setup trong Release
 - [x] Âm thanh sống động
 
 # Cài đặt
